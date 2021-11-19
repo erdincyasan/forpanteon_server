@@ -1,0 +1,23 @@
+{
+  "name": "panteon_backend",
+  "version": "1.0.0",
+  "description": "This project is relasing for interview",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon v1/src/app.js"
+  },
+  "author": "Erdinç YAŞAN",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.13",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "redis": "^3.1.2",
+    "socket.io": "^4.4.0"
+  }
+}
